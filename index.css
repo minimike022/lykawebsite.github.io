@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1, h2, p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.hero {
+    padding: 0 2em;
+    width: 100%;
+    height: 41em;
+    background-image: url("Images/Bacground.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 0 2em;
+    height: 8em;
+    border-radius: 0 0 10px 10px;
+}
+
+.logo-img img {
+    height: 100px;
+    width: 100px;
+}
+
+.logo-name h1{
+    font-weight: 700;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 1.5em;
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+a h1 {
+    font-size: 1.2em;
+    color: white;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    margin-left: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.content h1 {
+    text-align: center;
+    color: #063841;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.about-us {
+    width: 100%;
+    margin-top: 3em;
+}
+
+.cont1 {
+    margin-left: 4em;
+}
+
+.cont1 h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.cont1 p {
+    margin: 1em 0 0 1.5em;
+    width: 72em;
+    font-size: 1em;
+}
+
+.cont2 {
+    display: flex;
+    margin:2em 0 0 4em;
+}
+
+.cont2 h1 {
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.cont2 p {
+    margin: 1em 0 0 1.5em;
+    font-size: .8em;
+}
+
+.vision {
+    width: 37em;
+}
+
+.mission {
+    width: 37em;
+}
+
+.cont3 {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cont3-header h1{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.cont3-container img {
+    height: 3em;
+    width: 3em;
+}
+
+.cont3-container {
+    display: flex;
+}
+
+.makadiyos, .makatao, .makakalikasan, .makabansa {
+    margin: 1em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.strand-logo {
+    margin:2em 0 0 4em;
+
+} 
+
+.strand-logo h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.academic-strand{
+    text-align: center;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.stem, .abm, .humss, .tvl, .gas {
+    margin: 0 2em;
+    height: 17em;
+    width: 11em;
+    background-color: rgb(255, 136, 80);
+    border-radius: 10px;
+}
+
+.academic-strand h1 {
+    font-weight: 500;
+    color: white;
+}
+
+.academic-strand p{
+    font-weight: 500;
+    color: white;
+    margin-top: .5em;
+    font-size: .8em;
+}
+
+.contact-us-logo, .contact-content {
+    margin:2em 0 0 4em;
+}
+
+.contact-us-logo h1{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.contactnum{
+    margin-left: 4em;
+}
+
+.contactnum {
+    margin-top: 1em;
+}
+
+.contact-content-header {
+    margin-left: 3em;
+}
+
+.contact-content-header h1 {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.address {
+    margin-top: 1em;
+    margin-left: 4em;
+}
+
+.address h1 {
+    font-weight:400;
+}
+
+.address p{
+    margin-top: .4em;
+    font-size: 1.2em;
+}
+
+
+.connect
+{
+    position: relative;
+    transform: translate(60%, -15em);
+}
+
+.connect-head h1{
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.connect form {
+    margin: 1em;
+}
+
+#text {
+    padding-left: 1em;
+    border-radius: 7px;
+    border: 1.5px solid black;
+    height: 2.8em;
+    width: 20em;
+}
+
+#submit {
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    height: 2.8em;
+    width: 6em;
+}
+
+
